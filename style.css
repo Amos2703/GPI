@@ -88,7 +88,7 @@ h1, h2, h3 { font-family: 'Playfair Display', serif; color: var(--dark); }
 
 /* ===== HERO ===== */
 .hero {
-    background-image: linear-gradient(rgba(10,10,30,0.60), rgba(10,10,30,0.60)), url('images/hero.jpg');
+    background-image: linear-gradient(rgba(10,10,30,0.35), rgba(10,10,30,0.35)), url('images/hero.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
