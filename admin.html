@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - GPI Sidang TMII</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        :root { --gold:#c9a84c; --dark:#1a1a2e; --text:#4a5568; --light-bg:#f9f7f4; }
+        * { margin:0; padding:0; box-sizing:border-box; }
+        body { font-family:'Poppins',sans-serif; background:var(--light-bg); min-height:100vh; display:flex; align-items:center; justify-content:center; padding:24px; }
+        .card { background:white; border-radius:10px; box-shadow:0 8px 32px rgba(0,0,0,0.08); padding:48px 40px; width:100%; max-width:480px; text-align:center; }
+        .card i.main-icon { font-size:2.5rem; color:var(--gold); margin-bottom:16px; display:block; }
+        h2 { font-family:'Playfair Display',serif; color:var(--dark); margin-bottom:10px; }
+        p { color:var(--text); font-size:0.92rem; line-height:1.7; margin-bottom:24px; }
+        .info-box { background:#faf8f4; border:1px solid #e8e0d0; border-radius:8px; padding:20px; margin-bottom:28px; text-align:left; }
+        .info-box h4 { font-size:0.8rem; font-weight:600; text-transform:uppercase; letter-spacing:1px; color:var(--dark); margin-bottom:10px; }
+        .info-box ol { padding-left:18px; color:var(--text); font-size:0.88rem; line-height:2; }
+        .btn-formspree { display:inline-block; background:var(--gold); color:white; padding:13px 28px; border-radius:6px; text-decoration:none; font-weight:600; font-size:0.92rem; transition:background 0.2s; }
+        .btn-formspree:hover { background:#a8893a; }
+        .back-link { display:block; margin-top:18px; font-size:0.85rem; color:var(--text); text-decoration:none; }
+        .back-link:hover { color:var(--gold); }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <i class="fas fa-shield-halved main-icon"></i>
+        <h2>Halaman Admin</h2>
+        <p>
+            Karena web ini di-hosting di GitHub Pages (statis), data pendaftar tersimpan di
+            <strong>Formspree</strong> dan bisa dilihat langsung dari dashboard Formspree.
+        </p>
+
+        <div class="info-box">
+            <h4>Cara melihat data pendaftar:</h4>
+            <ol>
+                <li>Login ke <strong>formspree.io</strong></li>
+                <li>Buka form yang sudah kamu buat</li>
+                <li>Klik tab <strong>"Submissions"</strong></li>
+                <li>Data bisa di-export ke CSV dari sana</li>
+            </ol>
+        </div>
+
+        <a href="https://formspree.io/login" target="_blank" class="btn-formspree">
+            <i class="fas fa-arrow-up-right-from-square"></i> Buka Formspree Dashboard
+        </a>
+
+        <a href="index.html" class="back-link">&#8592; Kembali ke Beranda</a>
+    </div>
+</body>
+</html>
